@@ -1,0 +1,34 @@
+
+Traffic Light Control System
+This Arduino-based traffic light control system is a simple yet effective project designed to simulate the functioning of traffic lights. The system uses three LEDs to represent the standard red, yellow, and green signals found in traffic lights. The timing and sequence of the lights are programmed to mimic a typical traffic light cycle.
+
+Hardware Setup
+Connect the red LED to pin 2 of the Arduino.
+Connect the yellow LED to pin 3 of the Arduino.
+Connect the green LED to pin 4 of the Arduino.
+Code Explanation
+The code is written in Arduino language (C/C++). Here's a brief overview of the code structure:
+
+Global Variables:
+
+red_pin, yellow_pin, green_pin: Define the Arduino pins to which the corresponding LEDs are connected.
+delay_long: Set the duration of the red and green signals (in milliseconds).
+delay_short: Set the duration of the yellow signal (in milliseconds).
+Setup:
+
+Configures the specified pins as OUTPUT, indicating that these pins will be used to control the LEDs.
+Loop:
+
+Initiates a continuous loop to control the traffic light sequence.
+Turns on the red LED for a short duration (delay_short) followed by a longer duration (delay_long).
+Turns on the yellow LED for a short duration, then off.
+Turns on the green LED for a short duration (delay_short) followed by a longer duration (delay_long).
+How to Use
+Connect the LEDs to the Arduino pins according to the specified configuration.
+Upload the code to your Arduino board using the Arduino IDE or a compatible tool.
+Power on the Arduino.
+The traffic light simulation will start running, cycling through the red, yellow, and green signals. Adjust the delay_long and delay_short variables to customize the duration of each signal according to your preferences.
+
+Feel free to explore and modify the code to add more features or adapt it for different purposes.
+
+Enjoy experimenting with your Arduino traffic light control system!
